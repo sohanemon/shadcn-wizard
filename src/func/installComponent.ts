@@ -1,6 +1,9 @@
+import { spawn } from 'child_process';
 import * as vscode from 'vscode';
 import { COMPONENTS } from '../constants/components';
 import { camelToNormal } from '../lib/utils';
+
+spawn;
 
 export async function installComponentFunc() {
   const selectedComponent = (
@@ -18,10 +21,15 @@ export async function installComponentFunc() {
     await vscode.window.withProgress(
       {
         location: vscode.ProgressLocation.Notification,
-        title: 'Installing Tailwind CSS',
+        title: `Installing ${camelToNormal(selectedComponent)}`,
       },
       async () => {
-        vscode.window.showInformationMessage('Hello World from Shadcn Wizard!');
+        vscode.commands.executeCommand(
+          'workbench.action.terminal.sendSequence',
+          {
+            text: 'npx create-next-app init\n',
+          }
+        );
       }
     );
   }
