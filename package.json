@@ -18,6 +18,10 @@
         "title": "Shadcn: Install UI Component"
       },
       {
+        "command": "shadcn-wizard.docs",
+        "title": "Shadcn: Documentation"
+      },
+      {
         "command": "shadcn-wizard.initialize",
         "title": "Shadcn: Initialize UI"
       }
