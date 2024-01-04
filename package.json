@@ -3,10 +3,10 @@
   "displayName": "Shadcn Wizard",
   "description": "Nothing now",
   "publisher": "sohanemon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sohanemon/vscode-extensions/tree/main/shadcn-anatomy"
+    "url": "https://github.com/sohanemon/shadcn-wizard.git"
   },
   "icon": "assets/icon.png",
   "engines": {
