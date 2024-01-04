@@ -1,17 +1,45 @@
+import * as fs from 'fs';
+import * as path from 'path';
 import * as vscode from 'vscode';
-import { enter, execute, sleep } from '../lib/utils';
+import { toast } from '../lib/utils';
 
-export async function initializeFunc() {
+export async function initializeFunc(context: vscode.ExtensionContext) {
   await vscode.window.withProgress(
     {
       location: vscode.ProgressLocation.Notification,
       title: `Initializing Shadcn`,
     },
     async () => {
-      execute('npx shadcn-ui init');
-      for (let i = 0; i < 5; i++) {
-        await sleep();
-        enter();
+      if (vscode.workspace.workspaceFolders !== undefined) {
+        const workspacePath = vscode.workspace.workspaceFolders[0].uri.fsPath;
+        const filePath = path.join(workspacePath, 'components.json');
+
+        fs.writeFile(
+          filePath,
+          `{
+  "style": "default",
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "src/app/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true
+  },
+  "rsc": true,
+  "tsx": true,
+  "aliases": {
+    "utils": "~/lib/utils",
+    "components": "~/components"
+  }
+}
+`,
+          (err) => {
+            if (err) {
+              toast.error('Failed to create components.json: ' + err.message);
+            } else {
+              toast.info('Created components.json');
+            }
+          }
+        );
       }
     }
   );

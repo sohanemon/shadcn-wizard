@@ -28,3 +28,15 @@ export function execute(command: string) {
     text: `${command}\n`,
   });
 }
+
+export const toast = {
+  info: (message: string) => {
+    vscode.window.showInformationMessage(message);
+  },
+  warn: (message: string) => {
+    vscode.window.showWarningMessage(message);
+  },
+  error: (message: string) => {
+    vscode.window.showErrorMessage(message);
+  },
+};

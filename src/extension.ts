@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
   let initialize = vscode.commands.registerCommand(
     'shadcn-wizard.initialize',
-    initializeFunc
+    () => initializeFunc(context)
   );
 
   context.subscriptions.push(installComponent, initialize);

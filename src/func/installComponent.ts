@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import { COMPONENTS } from '../constants/components';
-import { camelToNormal } from '../lib/utils';
+import { camelToKebab, camelToNormal } from '../lib/utils';
 
 export async function installComponentFunc() {
   const selectedComponent = (
@@ -24,7 +24,7 @@ export async function installComponentFunc() {
         vscode.commands.executeCommand(
           'workbench.action.terminal.sendSequence',
           {
-            text: `npx shadcn-ui add ${selectedComponent}\n`,
+            text: `npx shadcn-ui add ${camelToKebab(selectedComponent)}\n`,
             addNewLine: true,
           },
           {
