@@ -16,6 +16,10 @@
       {
         "command": "shadcn-wizard.installComponent",
         "title": "Shadcn: Install UI Component"
+      },
+      {
+        "command": "shadcn-wizard.initialize",
+        "title": "Shadcn: Initialize UI"
       }
     ]
   },

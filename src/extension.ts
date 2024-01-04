@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { initializeFunc } from './func/initialize';
 import { installComponentFunc } from './func/installComponent';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -8,8 +9,12 @@ export function activate(context: vscode.ExtensionContext) {
     'shadcn-wizard.installComponent',
     installComponentFunc
   );
+  let initialize = vscode.commands.registerCommand(
+    'shadcn-wizard.initialize',
+    initializeFunc
+  );
 
-  context.subscriptions.push(installComponent);
+  context.subscriptions.push(installComponent, initialize);
 }
 
 export function deactivate() {}
