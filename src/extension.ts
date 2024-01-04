@@ -1,15 +1,15 @@
 import * as vscode from 'vscode';
+import { installComponentFunc } from './func/installComponent';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "shadcn-wizard" is now active!');
-  let disposable = vscode.commands.registerCommand(
-    'shadcn-wizard.helloWorld',
-    () => {
-      vscode.window.showInformationMessage('Hello World from Shadcn Wizard!');
-    }
+  console.log('Shadcn Wizard is now active!');
+
+  let installComponent = vscode.commands.registerCommand(
+    'shadcn-wizard.installComponent',
+    installComponentFunc
   );
 
-  context.subscriptions.push(disposable);
+  context.subscriptions.push(installComponent);
 }
 
 export function deactivate() {}

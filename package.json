@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "shadcn-wizard.helloWorld",
-        "title": "Hello World"
+        "command": "shadcn-wizard.installComponent",
+        "title": "Shadcn/Ui: Install Component"
       }
     ]
   },
