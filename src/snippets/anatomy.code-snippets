@@ -444,7 +444,7 @@
     "body": ["<Slider defaultValue={[33]} max={100} step={1} />"]
   },
   "Shadcn Toast": {
-    "scope": "typescriptreact,javascriptreact",
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
     "prefix": "shadcn:toast",
     "body": ["toast(\"Event has been created.\")"]
   },

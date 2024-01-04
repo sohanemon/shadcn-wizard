@@ -238,7 +238,7 @@
     "body": ["import { Textarea } from \"@/components/ui/textarea\""]
   },
   "Import Shadcn Toast": {
-    "scope": "typescriptreact,javascriptreact",
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
     "prefix": "import-shadcn:toast",
     "body": ["import { toast } from \"sonner\""]
   },
