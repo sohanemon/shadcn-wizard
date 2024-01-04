@@ -1,0 +1,540 @@
+{
+  "Shadcn Accordion": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:accordion",
+    "body": [
+      "<Accordion type=\"single\" collapsible>",
+      "  <AccordionItem value=\"item-1\">",
+      "    <AccordionTrigger>Is it accessible?</AccordionTrigger>",
+      "    <AccordionContent>",
+      "      Yes. It adheres to the WAI-ARIA design pattern.",
+      "    </AccordionContent>",
+      "  </AccordionItem>",
+      "</Accordion>"
+    ]
+  },
+  "Shadcn Alert": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:alert",
+    "body": [
+      "<Alert>",
+      "  <AlertTitle>Heads up!</AlertTitle>",
+      "  <AlertDescription>",
+      "    You can add components and dependencies to your app using the cli.",
+      "  </AlertDescription>",
+      "</Alert>"
+    ]
+  },
+  "Shadcn AlertDialog": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:alertdialog",
+    "body": [
+      "<AlertDialog>",
+      "  <AlertDialogTrigger>Open</AlertDialogTrigger>",
+      "  <AlertDialogContent>",
+      "    <AlertDialogHeader>",
+      "      <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>",
+      "      <AlertDialogDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </AlertDialogDescription>",
+      "    </AlertDialogHeader>",
+      "    <AlertDialogFooter>",
+      "      <AlertDialogCancel>Cancel</AlertDialogCancel>",
+      "      <AlertDialogAction>Continue</AlertDialogAction>",
+      "    </AlertDialogFooter>",
+      "  </AlertDialogContent>",
+      "</AlertDialog>"
+    ]
+  },
+  "Shadcn AspectRatio": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:aspectratio",
+    "body": [
+      "<div className=\"w-[450px]\">",
+      "  <AspectRatio ratio={16 / 9}>",
+      "    <Image src=\"...\" alt=\"Image\" className=\"rounded-md object-cover\" />",
+      "  </AspectRatio>",
+      "</div>"
+    ]
+  },
+  "Shadcn Avatar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:avatar",
+    "body": [
+      "<Avatar>",
+      "  <AvatarImage src=\"https://github.com/shadcn.png\" />",
+      "  <AvatarFallback>CN</AvatarFallback>",
+      "</Avatar>"
+    ]
+  },
+  "Shadcn Badge": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:badge",
+    "body": ["<Badge variant=\"outline\">Badge</Badge>"]
+  },
+  "Shadcn Button": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:button",
+    "body": ["<Button variant=\"outline\">Button</Button>"]
+  },
+  "Shadcn Calendar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:calendar",
+    "body": [
+      "const [date, setDate] = React.useState<Date | undefined>(new Date())",
+      "",
+      "return (",
+      "  <Calendar",
+      "    mode=\"single\"",
+      "    selected={date}",
+      "    onSelect={setDate}",
+      "    className=\"rounded-md border\"",
+      "  />",
+      ")"
+    ]
+  },
+  "Shadcn Card": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:card",
+    "body": [
+      "<Card>",
+      "  <CardHeader>",
+      "    <CardTitle>Card Title</CardTitle>",
+      "    <CardDescription>Card Description</CardDescription>",
+      "  </CardHeader>",
+      "  <CardContent>",
+      "    <p>Card Content</p>",
+      "  </CardContent>",
+      "  <CardFooter>",
+      "    <p>Card Footer</p>",
+      "  </CardFooter>",
+      "</Card>"
+    ]
+  },
+  "Shadcn Carousel": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:carousel",
+    "body": [
+      "<Carousel>",
+      "  <CarouselContent>",
+      "    <CarouselItem>...</CarouselItem>",
+      "    <CarouselItem>...</CarouselItem>",
+      "    <CarouselItem>...</CarouselItem>",
+      "  </CarouselContent>",
+      "  <CarouselPrevious />",
+      "  <CarouselNext />",
+      "</Carousel>"
+    ]
+  },
+  "Shadcn Checkbox": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:checkbox",
+    "body": ["<Checkbox />"]
+  },
+  "Shadcn Collapsible": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:collapsible",
+    "body": [
+      "<Collapsible>",
+      "  <CollapsibleTrigger>Can I use this in my project?</CollapsibleTrigger>",
+      "  <CollapsibleContent>",
+      "    Yes. Free to use for personal and commercial projects. No attribution",
+      "    required.",
+      "  </CollapsibleContent>",
+      "</Collapsible>"
+    ]
+  },
+  "Shadcn Command": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:command",
+    "body": [
+      "<Command>",
+      "  <CommandInput placeholder=\"Type a command or search...\" />",
+      "  <CommandList>",
+      "    <CommandEmpty>No results found.</CommandEmpty>",
+      "    <CommandGroup heading=\"Suggestions\">",
+      "      <CommandItem>Calendar</CommandItem>",
+      "      <CommandItem>Search Emoji</CommandItem>",
+      "      <CommandItem>Calculator</CommandItem>",
+      "    </CommandGroup>",
+      "    <CommandSeparator />",
+      "    <CommandGroup heading=\"Settings\">",
+      "      <CommandItem>Profile</CommandItem>",
+      "      <CommandItem>Billing</CommandItem>",
+      "      <CommandItem>Settings</CommandItem>",
+      "    </CommandGroup>",
+      "  </CommandList>",
+      "</Command>"
+    ]
+  },
+  "Shadcn ContextMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:contextmenu",
+    "body": [
+      "<ContextMenu>",
+      "  <ContextMenuTrigger>Right click</ContextMenuTrigger>",
+      "  <ContextMenuContent>",
+      "    <ContextMenuItem>Profile</ContextMenuItem>",
+      "    <ContextMenuItem>Billing</ContextMenuItem>",
+      "    <ContextMenuItem>Team</ContextMenuItem>",
+      "    <ContextMenuItem>Subscription</ContextMenuItem>",
+      "  </ContextMenuContent>",
+      "</ContextMenu>"
+    ]
+  },
+  "Shadcn Dialog": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:dialog",
+    "body": [
+      "<Dialog>",
+      "  <DialogTrigger>Open</DialogTrigger>",
+      "  <DialogContent>",
+      "    <DialogHeader>",
+      "      <DialogTitle>Are you sure absolutely sure?</DialogTitle>",
+      "      <DialogDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </DialogDescription>",
+      "    </DialogHeader>",
+      "  </DialogContent>",
+      "</Dialog>"
+    ]
+  },
+  "Shadcn Drawer": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:drawer",
+    "body": [
+      "<Drawer>",
+      "  <DrawerTrigger>Open</DrawerTrigger>",
+      "  <DrawerContent>",
+      "    <DrawerHeader>",
+      "      <DrawerTitle>Are you sure absolutely sure?</DrawerTitle>",
+      "      <DrawerDescription>This action cannot be undone.</DrawerDescription>",
+      "    </DrawerHeader>",
+      "    <DrawerFooter>",
+      "      <Button>Submit</Button>",
+      "      <DrawerClose>",
+      "        <Button variant=\"outline\">Cancel</Button>",
+      "      </DrawerClose>",
+      "    </DrawerFooter>",
+      "  </DrawerContent>",
+      "</Drawer>"
+    ]
+  },
+  "Shadcn DropdownMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:dropdownmenu",
+    "body": [
+      "<DropdownMenu>",
+      "  <DropdownMenuTrigger>Open</DropdownMenuTrigger>",
+      "  <DropdownMenuContent>",
+      "    <DropdownMenuLabel>My Account</DropdownMenuLabel>",
+      "    <DropdownMenuSeparator />",
+      "    <DropdownMenuItem>Profile</DropdownMenuItem>",
+      "    <DropdownMenuItem>Billing</DropdownMenuItem>",
+      "    <DropdownMenuItem>Team</DropdownMenuItem>",
+      "    <DropdownMenuItem>Subscription</DropdownMenuItem>",
+      "  </DropdownMenuContent>",
+      "</DropdownMenu>"
+    ]
+  },
+  "Shadcn Form": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:form",
+    "body": [
+      "<Form>",
+      "  <FormField",
+      "    control={...}",
+      "    name=\"...\"",
+      "    render={() => (",
+      "      <FormItem>",
+      "        <FormLabel />",
+      "        <FormControl>",
+      "          { /* Your form field */ }",
+      "        </FormControl>",
+      "        <FormDescription />",
+      "        <FormMessage />",
+      "      </FormItem>",
+      "    )}",
+      "  />",
+      "</Form>"
+    ]
+  },
+  "Shadcn HoverCard": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:hovercard",
+    "body": [
+      "<HoverCard>",
+      "  <HoverCardTrigger>Hover</HoverCardTrigger>",
+      "  <HoverCardContent>",
+      "    The React Framework – created and maintained by @vercel.",
+      "  </HoverCardContent>",
+      "</HoverCard>"
+    ]
+  },
+  "Shadcn Input": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:input",
+    "body": ["<Input />"]
+  },
+  "Shadcn Label": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:label",
+    "body": ["<Label htmlFor=\"email\">Your email address</Label>"]
+  },
+  "Shadcn Menubar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:menubar",
+    "body": [
+      "<Menubar>",
+      "  <MenubarMenu>",
+      "    <MenubarTrigger>File</MenubarTrigger>",
+      "    <MenubarContent>",
+      "      <MenubarItem>",
+      "        New Tab <MenubarShortcut>⌘T</MenubarShortcut>",
+      "      </MenubarItem>",
+      "      <MenubarItem>New Window</MenubarItem>",
+      "      <MenubarSeparator />",
+      "      <MenubarItem>Share</MenubarItem>",
+      "      <MenubarSeparator />",
+      "      <MenubarItem>Print</MenubarItem>",
+      "    </MenubarContent>",
+      "  </MenubarMenu>",
+      "</Menubar>"
+    ]
+  },
+  "Shadcn NavigationMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:navigationmenu",
+    "body": [
+      "<NavigationMenu>",
+      "  <NavigationMenuList>",
+      "    <NavigationMenuItem>",
+      "      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>",
+      "      <NavigationMenuContent>",
+      "        <NavigationMenuLink>Link</NavigationMenuLink>",
+      "      </NavigationMenuContent>",
+      "    </NavigationMenuItem>",
+      "  </NavigationMenuList>",
+      "</NavigationMenu>"
+    ]
+  },
+  "Shadcn Pagination": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:pagination",
+    "body": [
+      "<Pagination>",
+      "  <PaginationContent>",
+      "    <PaginationItem>",
+      "      <PaginationPrevious href=\"#\" />",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationLink href=\"#\">1</PaginationLink>",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationEllipsis />",
+      "    </PaginationItem>",
+      "    <PaginationItem>",
+      "      <PaginationNext href=\"#\" />",
+      "    </PaginationItem>",
+      "  </PaginationContent>",
+      "</Pagination>"
+    ]
+  },
+  "Shadcn Popover": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:popover",
+    "body": [
+      "<Popover>",
+      "  <PopoverTrigger>Open</PopoverTrigger>",
+      "  <PopoverContent>Place content for the popover here.</PopoverContent>",
+      "</Popover>"
+    ]
+  },
+  "Shadcn Progress": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:progress",
+    "body": ["<Progress value={33} />"]
+  },
+  "Shadcn RadioGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:radiogroup",
+    "body": [
+      "<RadioGroup defaultValue=\"option-one\">",
+      "  <div className=\"flex items-center space-x-2\">",
+      "    <RadioGroupItem value=\"option-one\" id=\"option-one\" />",
+      "    <Label htmlFor=\"option-one\">Option One</Label>",
+      "  </div>",
+      "  <div className=\"flex items-center space-x-2\">",
+      "    <RadioGroupItem value=\"option-two\" id=\"option-two\" />",
+      "    <Label htmlFor=\"option-two\">Option Two</Label>",
+      "  </div>",
+      "</RadioGroup>"
+    ]
+  },
+  "Shadcn ResizablePanelGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:resizablepanelgroup",
+    "body": [
+      "<ResizablePanelGroup direction=\"horizontal\">",
+      "  <ResizablePanel>One</ResizablePanel>",
+      "  <ResizableHandle />",
+      "  <ResizablePanel>Two</ResizablePanel>",
+      "</ResizablePanelGroup>"
+    ]
+  },
+  "Shadcn ScrollArea": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:scrollarea",
+    "body": [
+      "<ScrollArea className=\"h-[200px] w-[350px] rounded-md border p-4\">",
+      "  Jokester began sneaking into the castle in the middle of the night and leaving",
+      "  jokes all over the place...",
+      "</ScrollArea>"
+    ]
+  },
+  "Shadcn Select": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:select",
+    "body": [
+      "<Select>",
+      "  <SelectTrigger className=\"w-[180px]\">",
+      "    <SelectValue placeholder=\"Theme\" />",
+      "  </SelectTrigger>",
+      "  <SelectContent>",
+      "    <SelectItem value=\"light\">Light</SelectItem>",
+      "    <SelectItem value=\"dark\">Dark</SelectItem>",
+      "    <SelectItem value=\"system\">System</SelectItem>",
+      "  </SelectContent>",
+      "</Select>"
+    ]
+  },
+  "Shadcn Separator": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:separator",
+    "body": ["<Separator />"]
+  },
+  "Shadcn Sheet": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:sheet",
+    "body": [
+      "<Sheet>",
+      "  <SheetTrigger>Open</SheetTrigger>",
+      "  <SheetContent>",
+      "    <SheetHeader>",
+      "      <SheetTitle>Are you sure absolutely sure?</SheetTitle>",
+      "      <SheetDescription>",
+      "        This action cannot be undone. This will permanently delete your account",
+      "        and remove your data from our servers.",
+      "      </SheetDescription>",
+      "    </SheetHeader>",
+      "  </SheetContent>",
+      "</Sheet>"
+    ]
+  },
+  "Shadcn Skeleton": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:skeleton",
+    "body": ["<Skeleton className=\"w-[100px] h-[20px] rounded-full\" />"]
+  },
+  "Shadcn Slider": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:slider",
+    "body": ["<Slider defaultValue={[33]} max={100} step={1} />"]
+  },
+  "Shadcn Toast": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:toast",
+    "body": ["toast(\"Event has been created.\")"]
+  },
+  "Shadcn Switch": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:switch",
+    "body": ["<Switch />"]
+  },
+  "Shadcn Table": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:table",
+    "body": [
+      "<Table>",
+      "  <TableCaption>A list of your recent invoices.</TableCaption>",
+      "  <TableHeader>",
+      "    <TableRow>",
+      "      <TableHead className=\"w-[100px]\">Invoice</TableHead>",
+      "      <TableHead>Status</TableHead>",
+      "      <TableHead>Method</TableHead>",
+      "      <TableHead className=\"text-right\">Amount</TableHead>",
+      "    </TableRow>",
+      "  </TableHeader>",
+      "  <TableBody>",
+      "    <TableRow>",
+      "      <TableCell className=\"font-medium\">INV001</TableCell>",
+      "      <TableCell>Paid</TableCell>",
+      "      <TableCell>Credit Card</TableCell>",
+      "      <TableCell className=\"text-right\">$250.00</TableCell>",
+      "    </TableRow>",
+      "  </TableBody>",
+      "</Table>"
+    ]
+  },
+  "Shadcn Tabs": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:tabs",
+    "body": [
+      "<Tabs defaultValue=\"account\" className=\"w-[400px]\">",
+      "  <TabsList>",
+      "    <TabsTrigger value=\"account\">Account</TabsTrigger>",
+      "    <TabsTrigger value=\"password\">Password</TabsTrigger>",
+      "  </TabsList>",
+      "  <TabsContent value=\"account\">Make changes to your account here.</TabsContent>",
+      "  <TabsContent value=\"password\">Change your password here.</TabsContent>",
+      "</Tabs>"
+    ]
+  },
+  "Shadcn Textarea": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:textarea",
+    "body": ["<Textarea />"]
+  },
+  "Shadcn Toast": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:toast",
+    "body": [
+      "toast({",
+      "  title: \"Scheduled: Catch up\",",
+      "  description: \"Friday, February 10, 2023 at 5:57 PM\",",
+      "})"
+    ]
+  },
+  "Shadcn Toggle": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:toggle",
+    "body": ["<Toggle>Toggle</Toggle>"]
+  },
+  "Shadcn ToggleGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:togglegroup",
+    "body": [
+      "<ToggleGroup type=\"single\">",
+      "  <ToggleGroupItem value=\"a\">A</ToggleGroupItem>",
+      "  <ToggleGroupItem value=\"b\">B</ToggleGroupItem>",
+      "  <ToggleGroupItem value=\"c\">C</ToggleGroupItem>",
+      "</ToggleGroup>"
+    ]
+  },
+  "Shadcn TooltipProvider": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:tooltipprovider",
+    "body": [
+      "<TooltipProvider>",
+      "  <Tooltip>",
+      "    <TooltipTrigger>Hover</TooltipTrigger>",
+      "    <TooltipContent>",
+      "      <p>Add to library</p>",
+      "    </TooltipContent>",
+      "  </Tooltip>",
+      "</TooltipProvider>"
+    ]
+  }
+}

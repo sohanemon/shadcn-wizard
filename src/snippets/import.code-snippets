@@ -1,0 +1,264 @@
+{
+  "Import Shadcn Accordion": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:accordion",
+    "body": [
+      "import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from \"@/components/ui/accordion\""
+    ]
+  },
+  "Import Shadcn Alert": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:alert",
+    "body": [
+      "import { Alert, AlertTitle, AlertDescription } from \"@/components/ui/alert\""
+    ]
+  },
+  "Import Shadcn AlertDialog": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:alertdialog",
+    "body": [
+      "import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction } from \"@/components/ui/alertdialog\""
+    ]
+  },
+  "Import Shadcn AspectRatio": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:aspectratio",
+    "body": ["import { AspectRatio } from \"@/components/ui/aspectratio\""]
+  },
+  "Import Shadcn Avatar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:avatar",
+    "body": [
+      "import { Avatar, AvatarImage, AvatarFallback } from \"@/components/ui/avatar\""
+    ]
+  },
+  "Import Shadcn Badge": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:badge",
+    "body": ["import { Badge } from \"@/components/ui/badge\""]
+  },
+  "Import Shadcn Button": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:button",
+    "body": ["import { Button } from \"@/components/ui/button\""]
+  },
+  "Import Shadcn Calendar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:calendar",
+    "body": ["import { Calendar } from \"@/components/ui/calendar\""]
+  },
+  "Import Shadcn Card": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:card",
+    "body": [
+      "import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from \"@/components/ui/card\""
+    ]
+  },
+  "Import Shadcn Carousel": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:carousel",
+    "body": [
+      "import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from \"@/components/ui/carousel\""
+    ]
+  },
+  "Import Shadcn Checkbox": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:checkbox",
+    "body": ["import { Checkbox } from \"@/components/ui/checkbox\""]
+  },
+  "Import Shadcn Collapsible": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:collapsible",
+    "body": [
+      "import { Collapsible, CollapsibleTrigger, CollapsibleContent } from \"@/components/ui/collapsible\""
+    ]
+  },
+  "Import Shadcn Command": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:command",
+    "body": [
+      "import { Command, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem, CommandSeparator } from \"@/components/ui/command\""
+    ]
+  },
+  "Import Shadcn ContextMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:contextmenu",
+    "body": [
+      "import { ContextMenu, ContextMenuTrigger, ContextMenuContent, ContextMenuItem, ContextMenuSeparator } from \"@/components/ui/contextmenu\""
+    ]
+  },
+  "Import Shadcn Dialog": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:dialog",
+    "body": [
+      "import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogCancel, DialogAction } from \"@/components/ui/dialog\""
+    ]
+  },
+  "Import Shadcn Drawer": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:drawer",
+    "body": [
+      "import { Drawer, DrawerTrigger, DrawerContent, DrawerHeader, DrawerTitle, DrawerDescription, DrawerFooter, DrawerClose } from \"@/components/ui/drawer\""
+    ]
+  },
+  "Import Shadcn DropdownMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:dropdownmenu",
+    "body": [
+      "import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from \"@/components/ui/dropdownmenu\""
+    ]
+  },
+  "Import Shadcn Form": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:form",
+    "body": [
+      "import { Form, FormField, FormItem, FormLabel, FormControl, FormDescription, FormMessage } from \"@/components/ui/form\""
+    ]
+  },
+  "Import Shadcn HoverCard": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:hovercard",
+    "body": [
+      "import { HoverCard, HoverCardTrigger, HoverCardContent } from \"@/components/ui/hovercard\""
+    ]
+  },
+  "Import Shadcn Input": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:input",
+    "body": ["import { Input } from \"@/components/ui/input\""]
+  },
+  "Import Shadcn Label": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:label",
+    "body": ["import { Label } from \"@/components/ui/label\""]
+  },
+  "Import Shadcn Menubar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:menubar",
+    "body": [
+      "import { Menubar, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem, MenubarSeparator } from \"@/components/ui/menubar\""
+    ]
+  },
+  "Import Shadcn NavigationMenu": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:navigationmenu",
+    "body": [
+      "import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from \"@/components/ui/navigationmenu\""
+    ]
+  },
+  "Import Shadcn Pagination": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:pagination",
+    "body": [
+      "import { Pagination, PaginationContent, PaginationItem, PaginationPrevious, PaginationLink, PaginationEllipsis, PaginationNext } from \"@/components/ui/pagination\""
+    ]
+  },
+  "Import Shadcn Popover": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:popover",
+    "body": [
+      "import { Popover, PopoverTrigger, PopoverContent } from \"@/components/ui/popover\""
+    ]
+  },
+  "Import Shadcn Progress": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:progress",
+    "body": ["import { Progress } from \"@/components/ui/progress\""]
+  },
+  "Import Shadcn RadioGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:radiogroup",
+    "body": [
+      "import { RadioGroup, RadioGroupItem } from \"@/components/ui/radiogroup\""
+    ]
+  },
+  "Import Shadcn ResizablePanelGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:resizablepanelgroup",
+    "body": [
+      "import { ResizablePanelGroup, ResizablePanel, ResizableHandle } from \"@/components/ui/resizablepanelgroup\""
+    ]
+  },
+  "Import Shadcn ScrollArea": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:scrollarea",
+    "body": ["import { ScrollArea } from \"@/components/ui/scrollarea\""]
+  },
+  "Import Shadcn Select": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:select",
+    "body": [
+      "import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from \"@/components/ui/select\""
+    ]
+  },
+  "Import Shadcn Separator": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:separator",
+    "body": ["import { Separator } from \"@/components/ui/separator\""]
+  },
+  "Import Shadcn Sheet": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:sheet",
+    "body": [
+      "import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription } from \"@/components/ui/sheet\""
+    ]
+  },
+  "Import Shadcn Skeleton": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:skeleton",
+    "body": ["import { Skeleton } from \"@/components/ui/skeleton\""]
+  },
+  "Import Shadcn Slider": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:slider",
+    "body": ["import { Slider } from \"@/components/ui/slider\""]
+  },
+  "Import Shadcn Switch": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:switch",
+    "body": ["import { Switch } from \"@/components/ui/switch\""]
+  },
+  "Import Shadcn Table": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:table",
+    "body": [
+      "import { Table, TableCaption, TableHeader, TableRow, TableHead, TableBody, TableCell } from \"@/components/ui/table\""
+    ]
+  },
+  "Import Shadcn Tabs": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:tabs",
+    "body": [
+      "import { Tabs, TabsList, TabsTrigger, TabsContent } from \"@/components/ui/tabs\""
+    ]
+  },
+  "Import Shadcn Textarea": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:textarea",
+    "body": ["import { Textarea } from \"@/components/ui/textarea\""]
+  },
+  "Import Shadcn Toast": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:toast",
+    "body": ["import { toast } from \"sonner\""]
+  },
+  "Import Shadcn Toggle": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:toggle",
+    "body": ["import { Toggle } from \"@/components/ui/toggle\""]
+  },
+  "Import Shadcn ToggleGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:togglegroup",
+    "body": [
+      "import { ToggleGroup, ToggleGroupItem } from \"@/components/ui/togglegroup\""
+    ]
+  },
+  "Import Shadcn TooltipProvider": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:tooltipprovider",
+    "body": [
+      "import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from \"@/components/ui/tooltip\""
+    ]
+  }
+}
