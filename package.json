@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "shadcn-wizard.installComponent",
-        "title": "Shadcn/Ui: Install Component"
+        "title": "Shadcn: Install UI Component"
       }
     ]
   },
