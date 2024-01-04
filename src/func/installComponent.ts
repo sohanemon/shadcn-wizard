@@ -48,14 +48,15 @@ export async function installComponentFunc() {
 
           process.on('close', (code) => {
             if (code === 0) {
-              progress.report({
-                message: `${camelToNormal(
-                  selectedComponent
-                )} successfully added!`,
-              });
+              toast.info(
+                `${camelToNormal(selectedComponent)} successfully added!`
+              );
             } else {
-              progress.report({ message: 'Failed to add component' });
+              toast.error(
+                `${camelToNormal(selectedComponent)} installation failed!`
+              );
             }
+
             completed = true;
           });
 
