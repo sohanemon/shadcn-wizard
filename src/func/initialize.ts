@@ -34,9 +34,11 @@ export async function initializeFunc(context: vscode.ExtensionContext) {
 `,
           (err) => {
             if (err) {
-              toast.error('Failed to create components.json: ' + err.message);
+              vscode.window.showErrorMessage(
+                'Failed to create components.json: ' + err.message
+              );
             } else {
-              toast.info('Created components.json');
+              toast.error('Created components.json');
             }
           }
         );

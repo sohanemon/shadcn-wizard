@@ -40,3 +40,5 @@ export const toast = {
     vscode.window.showErrorMessage(message);
   },
 };
+
+export const cwd = vscode.workspace.workspaceFolders?.[0].uri.fsPath;
