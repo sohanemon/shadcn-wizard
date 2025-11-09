@@ -9,5 +9,5 @@
     "strict": true,
     "types": ["node", "mocha"]
   },
-  "exclude": ["node_modules/bun-types"]
+  "include": ["src/**/*.ts", "src/test/**/*.ts"]
 }
