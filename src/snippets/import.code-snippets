@@ -366,9 +366,9 @@
       "import { Typography } from \"@/components/ui/typography\""
     ]
   },
-  "Import Shadcn TooltipProvider": {
+  "Import Shadcn Tooltip": {
     "scope": "typescriptreact,javascriptreact",
-    "prefix": "import-shadcn:tooltipprovider",
+    "prefix": "import-shadcn:tooltip",
     "body": [
       "import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from \"@/components/ui/tooltip\""
     ]

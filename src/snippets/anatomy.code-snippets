@@ -703,9 +703,9 @@
       "<Typography.H1>H1 Heading</Typography.H1>"
     ]
   },
-  "Shadcn TooltipProvider": {
+  "Shadcn Tooltip": {
     "scope": "typescriptreact,javascriptreact",
-    "prefix": "shadcn:tooltipprovider",
+    "prefix": "shadcn:tooltip",
     "body": [
       "<TooltipProvider>",
       "  <Tooltip>",
