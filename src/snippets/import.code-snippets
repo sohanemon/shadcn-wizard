@@ -254,6 +254,118 @@
       "import { ToggleGroup, ToggleGroupItem } from \"@/components/ui/togglegroup\""
     ]
   },
+  "Import Shadcn Combobox": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:combobox",
+    "body": [
+      "import { Combobox, ComboboxInput, ComboboxContent, ComboboxEmpty, ComboboxGroup, ComboboxItem } from \"@/components/ui/combobox\""
+    ]
+  },
+  "Import Shadcn Sonner": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "import-shadcn:sonner",
+    "body": [
+      "import { toast } from \"sonner\""
+    ]
+  },
+  "Import Shadcn Breadcrumb": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:breadcrumb",
+    "body": [
+      "import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from \"@/components/ui/breadcrumb\""
+    ]
+  },
+  "Import Shadcn ButtonGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:buttongroup",
+    "body": [
+      "import { ButtonGroup } from \"@/components/ui/button-group\""
+    ]
+  },
+  "Import Shadcn Chart": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:chart",
+    "body": [
+      "import { ChartContainer, ChartTooltip, ChartTooltipContent } from \"@/components/ui/chart\""
+    ]
+  },
+  "Import Shadcn DataTable": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:datatable",
+    "body": [
+      "import { DataTable } from \"@/components/ui/data-table\""
+    ]
+  },
+  "Import Shadcn DatePicker": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:datepicker",
+    "body": [
+      "import { DatePicker } from \"@/components/ui/date-picker\""
+    ]
+  },
+  "Import Shadcn EmptyField": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:emptyfield",
+    "body": [
+      "import { EmptyField } from \"@/components/ui/empty-field\""
+    ]
+  },
+  "Import Shadcn InputGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:inputgroup",
+    "body": [
+      "import { InputGroup, InputGroupAddon, InputGroupPrepend, InputGroupAppend } from \"@/components/ui/input-group\""
+    ]
+  },
+  "Import Shadcn InputOTP": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:inputotp",
+    "body": [
+      "import { InputOTP, InputOTPGroup, InputOTPSlot } from \"@/components/ui/input-otp\""
+    ]
+  },
+  "Import Shadcn InputItem": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:inputitem",
+    "body": [
+      "import { InputItem } from \"@/components/ui/input-item\""
+    ]
+  },
+  "Import Shadcn Kbd": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:kbd",
+    "body": [
+      "import { Kbd } from \"@/components/ui/kbd\""
+    ]
+  },
+  "Import Shadcn NativeSelect": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:nativeselect",
+    "body": [
+      "import { NativeSelect } from \"@/components/ui/native-select\""
+    ]
+  },
+  "Import Shadcn Sidebar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:sidebar",
+    "body": [
+      "import { Sidebar } from \"@/components/ui/sidebar\""
+    ]
+  },
+  "Import Shadcn Spinner": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:spinner",
+    "body": [
+      "import { Spinner } from \"@/components/ui/spinner\""
+    ]
+  },
+  "Import Shadcn Typography": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "import-shadcn:typography",
+    "body": [
+      "import { Typography } from \"@/components/ui/typography\""
+    ]
+  },
   "Import Shadcn TooltipProvider": {
     "scope": "typescriptreact,javascriptreact",
     "prefix": "import-shadcn:tooltipprovider",
