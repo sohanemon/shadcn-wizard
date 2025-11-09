@@ -523,6 +523,186 @@
       "</ToggleGroup>"
     ]
   },
+  "Shadcn Combobox": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:combobox",
+    "body": [
+      "<Combobox>",
+      "  <ComboboxInput placeholder=\"Search framework...\" />",
+      "  <ComboboxContent>",
+      "    <ComboboxEmpty />",
+      "    <ComboboxGroup>",
+      "      <ComboboxItem value=\"nextjs\">Next.js</ComboboxItem>",
+      "      <ComboboxItem value=\"sveltekit\">SvelteKit</ComboboxItem>",
+      "    </ComboboxGroup>",
+      "  </ComboboxContent>",
+      "</Combobox>"
+    ]
+  },
+  "Shadcn Sonner": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "shadcn:sonner",
+    "body": [
+      "<Button onClick={() => toast(\"Event has been created\")}>Show Toast</Button>"
+    ]
+  },
+  "Shadcn Breadcrumb": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:breadcrumb",
+    "body": [
+      "<Breadcrumb>",
+      "  <BreadcrumbList>",
+      "    <BreadcrumbItem>",
+      "      <BreadcrumbLink href=\"/\">Home</BreadcrumbLink>",
+      "    </BreadcrumbItem>",
+      "    <BreadcrumbSeparator />",
+      "    <BreadcrumbItem>",
+      "      <BreadcrumbLink href=\"/components\">Components</BreadcrumbLink>",
+      "    </BreadcrumbItem>",
+      "    <BreadcrumbSeparator />",
+      "    <BreadcrumbItem>",
+      "      <BreadcrumbPage>Breadcrumb</BreadcrumbPage>",
+      "    </BreadcrumbItem>",
+      "  </BreadcrumbList>",
+      "</Breadcrumb>"
+    ]
+  },
+  "Shadcn ButtonGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:buttongroup",
+    "body": [
+      "<ButtonGroup>",
+      "  <Button>One</Button>",
+      "  <Button>Two</Button>",
+      "</ButtonGroup>"
+    ]
+  },
+  "Shadcn Chart": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:chart",
+    "body": [
+      "<ChartContainer config={{}} className=\"min-h-[200px] w-full\">",
+      "  <LineChart data={[]}>",
+      "    <CartesianGrid vertical={false} />",
+      "    <XAxis dataKey=\"name\" />",
+      "    <YAxis />",
+      "    <ChartTooltip cursor={false} content={<ChartTooltipContent />} />",
+      "    <Line dataKey=\"value\" type=\"natural\" stroke=\"var(--color-primary)\" strokeWidth={2} dot={false} />",
+      "  </LineChart>",
+      "</ChartContainer>"
+    ]
+  },
+  "Shadcn DataTable": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:datatable",
+    "body": [
+      "<DataTable columns={[]} data={[]} />"
+    ]
+  },
+  "Shadcn DatePicker": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:datepicker",
+    "body": [
+      "const [date, setDate] = React.useState<Date>()",
+      "",
+      "return (",
+      "  <DatePicker",
+      "    date={date}",
+      "    setDate={setDate}",
+      "  />",
+      ")"
+    ]
+  },
+  "Shadcn EmptyField": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:emptyfield",
+    "body": [
+      "<EmptyField>",
+      "  <EmptyField.Icon />",
+      "  <EmptyField.Title>No Results</EmptyField.Title>",
+      "  <EmptyField.Description>",
+      "    Your search did not return any results.",
+      "  </EmptyField.Description>",
+      "  <EmptyField.Action>",
+      "    <Button>Clear Search</Button>",
+      "  </EmptyField.Action>",
+      "</EmptyField>"
+    ]
+  },
+  "Shadcn InputGroup": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:inputgroup",
+    "body": [
+      "<InputGroup>",
+      "  <InputGroupPrepend>@</InputGroupPrepend>",
+      "  <Input placeholder=\"username\" />",
+      "</InputGroup>"
+    ]
+  },
+  "Shadcn InputOTP": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:inputotp",
+    "body": [
+      "<InputOTP maxLength={6}>",
+      "  <InputOTPGroup>",
+      "    <InputOTPSlot index={0} />",
+      "    <InputOTPSlot index={1} />",
+      "    <InputOTPSlot index={2} />",
+      "    <InputOTPSlot index={3} />",
+      "    <InputOTPSlot index={4} />",
+      "    <InputOTPSlot index={5} />",
+      "  </InputOTPGroup>",
+      "</InputOTP>"
+    ]
+  },
+  "Shadcn InputItem": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:inputitem",
+    "body": [
+      "<InputItem />"
+    ]
+  },
+  "Shadcn Kbd": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:kbd",
+    "body": [
+      "<Kbd>⌘K</Kbd>"
+    ]
+  },
+  "Shadcn NativeSelect": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:nativeselect",
+    "body": [
+      "<NativeSelect>",
+      "  <option value=\"light\">Light</option>",
+      "  <option value=\"dark\">Dark</option>",
+      "</NativeSelect>"
+    ]
+  },
+  "Shadcn Sidebar": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:sidebar",
+    "body": [
+      "<Sidebar>",
+      "  <Sidebar.Item>Item 1</Sidebar.Item>",
+      "  <Sidebar.Item>Item 2</Sidebar.Item>",
+      "</Sidebar>"
+    ]
+  },
+  "Shadcn Spinner": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:spinner",
+    "body": [
+      "<Spinner />"
+    ]
+  },
+  "Shadcn Typography": {
+    "scope": "typescriptreact,javascriptreact",
+    "prefix": "shadcn:typography",
+    "body": [
+      "<Typography.H1>H1 Heading</Typography.H1>"
+    ]
+  },
   "Shadcn TooltipProvider": {
     "scope": "typescriptreact,javascriptreact",
     "prefix": "shadcn:tooltipprovider",
